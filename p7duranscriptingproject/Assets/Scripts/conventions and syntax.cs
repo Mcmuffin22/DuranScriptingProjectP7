@@ -13,6 +13,10 @@ public class BasicSyntax : MonoBehaviour
          * */
         Debug.Log(transform.position.x);
 
+       
+    }
+    void Update()
+    {
         if (transform.position.y <= 5f)
         {
             Debug.Log("I'm about to hit the ground!");
