@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using static UnityEditor.Progress;
+
+public class ForEachLoop : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        strings[0] = "First string";
+        strings[1] = "Second string";
+        strings[2] = "Third string";
+
+        foreach (string item in strings)
+        {
+            print(item);
+        }
+
+    // Update is called once per frame
+    void Update()
+    {
+            
+    }
+
